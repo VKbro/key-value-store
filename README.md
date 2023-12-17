@@ -2,6 +2,8 @@
 
 This project is a simple key-value store implemented in Java using Spring Boot. It provides a RESTful API to interact with the key-value data.
 
+Persistence is provided using a file based database (inbuilt H2 Database).
+
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -13,7 +15,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/keyvaluestore.git
+git clone https://github.com/VKbro/key-value-store.git
 ```
 2. Install dependencies
 ```bash
